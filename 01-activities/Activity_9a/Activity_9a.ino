@@ -59,7 +59,7 @@ void loop() {
   Serial.print(sensorVal);
   Serial.println();
 
-  delay(10);
+  delay(200);
 
   analogWrite(ledPin, sensorVal);  // turn the LED on (HIGH is the voltage level)
 }
